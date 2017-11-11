@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="idsApplicationMenuBar" xml:space="preserve">
+    <value>VisualShow3DLight</value>
+  </data>
+  <data name="idsApplicationName" xml:space="preserve">
+    <value>VisualShow3DLight</value>
+  </data>
+  <data name="idsApplicationToolbar" xml:space="preserve">
+    <value>VisualShow3DLight</value>
+  </data>
+  <data name="idsCompanyName" xml:space="preserve">
+    <value>ShareVisual</value>
+  </data>
+  <data name="idsConfirmDelete" xml:space="preserve">
+    <value>Voulez-vous vraiment supprimer le projet actif ?</value>
+  </data>
+  <data name="idsDefaultUser" xml:space="preserve">
+    <value>VisualShow3DLight</value>
+  </data>
+  <data name="idsDocumentTitle" xml:space="preserve">
+    <value>"VisualShow3DLight : "</value>
+  </data>
+  <data name="idsErrorPublish" xml:space="preserve">
+    <value>Erreur de publication du document {0}</value>
+  </data>
+  <data name="idsFdOpenTitleOptionPath" xml:space="preserve">
+    <value>Choix du répertoire de la base de données</value>
+  </data>
+  <data name="idsFileNotFound" xml:space="preserve">
+    <value>Erreur ouverture fichier {0} </value>
+  </data>
+  <data name="idsFolderNameDefaultValue" xml:space="preserve">
+    <value>Publication</value>
+  </data>
+  <data name="idsFolderNameKey" xml:space="preserve">
+    <value>Folder</value>
+  </data>
+  <data name="idsHelpfileNotFound" xml:space="preserve">
+    <value>Fichier d'aide {0} introuvable</value>
+  </data>
+  <data name="idsInvalidDocumentType" xml:space="preserve">
+    <value>Le document actif n'est pas un document VisualShow3DLight</value>
+  </data>
+  <data name="idsNotImplemented" xml:space="preserve">
+    <value>Commande non implémentée</value>
+  </data>
+  <data name="idsNullActiveDoc" xml:space="preserve">
+    <value>Document actif nul !!!</value>
+  </data>
+  <data name="idsNullApp" xml:space="preserve">
+    <value>visApp nul !!!</value>
+  </data>
+  <data name="idsNullDoc" xml:space="preserve">
+    <value>visDocument du VisualShow3DLight doc nul !!!</value>
+  </data>
+  <data name="idsStencilDefaultValue" xml:space="preserve">
+    <value>C:\Dev\VisualShow3DLight\VisualShow3DLight\Gabarits</value>
+  </data>
+  <data name="idsStencilKey" xml:space="preserve">
+    <value>Gabarits</value>
+  </data>
+  <data name="idsStencilName" xml:space="preserve">
+    <value>VisualShow3DLight.vssx</value>
+  </data>
+  <data name="idsSystemDefaultValue" xml:space="preserve">
+    <value>C:\Dev\VisualShow3DLight\VisualShow3DLight\System</value>
+  </data>
+  <data name="idsSystemKey" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="idsTemplateDefaultValue" xml:space="preserve">
+    <value>C:\Dev\VisualShow3DLight\VisualShow3DLight\Modeles</value>
+  </data>
+  <data name="idsTemplateKey" xml:space="preserve">
+    <value>Modeles</value>
+  </data>
+  <data name="idsTemplateName" xml:space="preserve">
+    <value>VisualShow3DLight.vstx</value>
+  </data>
+  <data name="idsUserModeDefaultValue" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="idsUserModeKey" xml:space="preserve">
+    <value>UserMode</value>
+  </data>
+  <data name="strBadNum" xml:space="preserve">
+    <value>Numérotation incorrecte, , la modification du numéro sera ignorée !!!</value>
+  </data>
+  <data name="strCalculExtension" xml:space="preserve">
+    <value>Tableau de bord ({0})|{1}</value>
+  </data>
+  <data name="strDocExtension" xml:space="preserve">
+    <value>Document ({0})|{1}</value>
+  </data>
+  <data name="strFdFilterDrawing" xml:space="preserve">
+    <value>Dessin (*.vsdx;*.vsd;*.vdx)|*.vsdx;*.vsd;*.vdx</value>
+  </data>
+  <data name="strFdLogoFilter" xml:space="preserve">
+    <value>Image (*.png;*.bmp;*.gif)|*.png;*.bmp;*.gif</value>
+  </data>
+  <data name="strIdsDataBaseError" xml:space="preserve">
+    <value>Erreur de connexion à la base de donnée de l'application</value>
+  </data>
+  <data name="strIdsDocumentNotfound" xml:space="preserve">
+    <value>Document introuvable  {0}, il ne peut être ouvert</value>
+  </data>
+  <data name="strIdsErreurApp2" xml:space="preserve">
+    <value>Erreur {0}, {1}</value>
+  </data>
+  <data name="strIdsErreurBadProjectName" xml:space="preserve">
+    <value>Nom de projet invalide</value>
+  </data>
+  <data name="strIdsErreurInitError" xml:space="preserve">
+    <value>Impossible d'initialiser le document {0} : {1}</value>
+  </data>
+  <data name="strIdsErrorCannotDeleteLast" xml:space="preserve">
+    <value>Impossible de supprimer le dernier document du projet</value>
+  </data>
+  <data name="strIdsErrorProjectNotFound" xml:space="preserve">
+    <value>Projet introuvable</value>
+  </data>
+  <data name="strIdsErrorTruncated" xml:space="preserve">
+    <value>La saisie est trop longue elle sera traonquée à 255 caractères</value>
+  </data>
+  <data name="strIdsErrorWhileSaving" xml:space="preserve">
+    <value>Erreur lors de l'enregistrement du projet {0}</value>
+  </data>
+  <data name="strIdsInitializationError" xml:space="preserve">
+    <value>Erreur d'initialisation de l'application {0}</value>
+  </data>
+  <data name="strIdsInvalidEntry" xml:space="preserve">
+    <value>Valeur incorrecte</value>
+  </data>
+  <data name="strIdsInvalidLength" xml:space="preserve">
+    <value>Longueur maximale dépassée</value>
+  </data>
+  <data name="strIdsInvalidSelection" xml:space="preserve">
+    <value>Sélection de document invalide !</value>
+  </data>
+  <data name="strIdsInvalidShapeSelection" xml:space="preserve">
+    <value>Sélection invalide</value>
+  </data>
+  <data name="strIdsProjectAlreadyOpen" xml:space="preserve">
+    <value>Le projet est déjà ouvert ou bien il a mal été fermé , voulez-vous forcer son ouverture ?</value>
+  </data>
+  <data name="strIdsQuitNeeded" xml:space="preserve">
+    <value>Les modifications effectuées sur la base de données ne seront prises en compte qu'après le redémarrage de l'application</value>
+  </data>
+  <data name="strNoActiveProject" xml:space="preserve">
+    <value>Aucun projet actif</value>
+  </data>
+  <data name="strNoNavigateLink" xml:space="preserve">
+    <value>Aucun lien de navigation !!!</value>
+  </data>
+  <data name="strNumAlreadyExist" xml:space="preserve">
+    <value>Le numéro existe déja, la modification sera ignorée !!!</value>
+  </data>
+  <data name="strObjectAlreadyLinked" xml:space="preserve">
+    <value>Objet déja lié, opération impossible !!!</value>
+  </data>
+  <data name="strPageAlreadyExist" xml:space="preserve">
+    <value>La page : {0} existe déja</value>
+  </data>
+  <data name="strPresentationExtension" xml:space="preserve">
+    <value>Présentation ({0})|{1}</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="FileManagement64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\FileManagement64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ProjectNew64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ProjectNew64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ProjectOpen64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ProjectOpen64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RotateX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RotateX.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RotateY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RotateY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RotateZ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RotateZ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TranslateX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TranslateX.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TranslateY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TranslateY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TranslateZ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TranslateZ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ApplyShapeData" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ApplyShapeData.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Panel3D32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Panel3D32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vue3D32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Vue3D32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ProjectClose64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ProjectClose64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ProjectSave64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ProjectSave64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ProjectSaveAs64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ProjectSaveAs64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

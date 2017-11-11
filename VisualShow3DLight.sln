@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisualShow3DLight", "VisualShow3DLight\VisualShow3DLight.csproj", "{CEF7505D-C625-4C95-9013-90C58DA26D9B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FA2394B1-052C-4A0A-9A9D-EFE85FBAEC5D}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEF7505D-C625-4C95-9013-90C58DA26D9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEF7505D-C625-4C95-9013-90C58DA26D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEF7505D-C625-4C95-9013-90C58DA26D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEF7505D-C625-4C95-9013-90C58DA26D9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF2B93AC-0B43-44A8-AB20-37E70B9D5EEB}
+	EndGlobalSection
+EndGlobal

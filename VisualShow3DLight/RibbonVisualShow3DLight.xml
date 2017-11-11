@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI onLoad="Ribbon_Load" xmlns="http://schemas.microsoft.com/office/2009/07/customui" >
+  <ribbon>
+    <tabs>
+      <tab id="tabVisualShow3DLight" label="VisualShow3DLight">
+        <group id="grpShape" label="Shapes">
+          <button id="btnApplyShapeData" onAction="OnAction" getImage="GetImage" label="Validate for 3D" size="normal" />
+        </group>
+        <group id="grpView" label="Vue" getImage="GetImage">
+          <button id="btnSceneGenerateWithBabylonJS" onAction="OnAction" label="3D BabylonJS View" getImage="GetImage"  getEnabled="GetEnabled"/>
+          <button id="btnWindowSceneGenerateWithBabylonJS" onAction="OnAction" label="3D BabylonJS Panel" getImage="GetImage"  getEnabled="GetEnabled"/>
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+  <backstage>
+      <tab id="tabBackStageVisualShow3DLight" firstColumnMaxWidth="450" columnWidthPercent="80" insertBeforeMso="FileExit" label="VisualShow3DLight">
+      <firstColumn>
+        <taskFormGroup id="projectGroup" allowedTaskSizes="medium">
+          <category id="catFile" label="Projects" >
+            <task id="taskCatFiles" label="VisualShow3DLight files"
+              description="Create, opening files" getImage="GetImage" >
+              <group id="regularGroup" label="Projet" helperText="Provide file management">
+                <topItems>
+                  <layoutContainer id="layoutNew" layoutChildren="horizontal"  expand="vertical"  align="topLeft">
+                    <button id="btnProjectNew" style="large" label="New" onAction="OnAction" getImage="GetImage"
+                        isDefinitive="false"
+                        screentip="Click to open a new file"/>
+                  </layoutContainer>
+                  <layoutContainer id="layoutOpen" layoutChildren="horizontal"  expand="vertical"  align="topLeft">
+                    <button id="btnProjectOpen" style="large" label="Open" onAction="OnAction" getImage="GetImage"
+                        isDefinitive="false"
+                        screentip="Click to open the file"/>
+                  </layoutContainer>
+                  <layoutContainer id="layoutSave" layoutChildren="horizontal"  expand="vertical"  align="topLeft">
+                    <button id="btnProjectSave" style="large" label="Save" onAction="OnAction" getImage="GetImage"
+                        isDefinitive="false"
+                        screentip="Click to save the project"/>
+                  </layoutContainer>
+                  <layoutContainer id="layoutSaveAs" layoutChildren="horizontal"  expand="vertical"  align="topLeft">
+                    <button id="btnProjectSaveAs" style="large" label="Save as..." onAction="OnAction" getImage="GetImage"
+                        isDefinitive="false"
+                        screentip="Click to save the project"/>
+                  </layoutContainer>
+                  <layoutContainer id="layoutClose" layoutChildren="horizontal"  expand="vertical"  align="topLeft">
+                    <button id="btnProjectClose" style="large" label="Close" onAction="OnAction" getImage="GetImage"
+                        isDefinitive="false"
+                        screentip="Click to close the project"/>
+                  </layoutContainer>
+                </topItems>
+              </group>
+            </task>
+          </category>
+        </taskFormGroup>
+      </firstColumn>
+
+      <secondColumn>
+        <group id="grpLicense" label="Produit" helperText="Copyright © ShareVisual Michel LAPLANE">
+          <topItems>
+            <layoutContainer id="layoutLicense" layoutChildren="vertical">
+              <labelControl id="labelLicenseInfo" label="VisualShow3DLight Application " />
+            </layoutContainer>
+          </topItems>
+        </group>
+        <group id="grpAbout" label="About VisualShow3DLight" helperText="VisualShow3DLight Application ">
+          <topItems>
+            <layoutContainer id="layoutAbout" layoutChildren="vertical">
+              <labelControl id="labelBuildInfo" getLabel="GetLabel" />
+              <!--do not use label="" if using getLabel callback-->
+            </layoutContainer>
+          </topItems>
+        </group>
+      </secondColumn>
+    </tab>
+  </backstage>
+</customUI>
