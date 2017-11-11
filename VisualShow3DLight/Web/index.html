@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Display Microsoft Visio Content in 3D on HTML5 Canvas</title>
+  <script src="https://preview.babylonjs.com/babylon.js"></script>
+  <script src="../Scripts/library.js"></script>
+  <script src="../Scripts/main.js"></script>
+  <script>
+    // Very strange !!! These functions must be there (and not in main.js or other file) to be called from C#
+    function AltitudeUp()
+    {
+      camera.beta -= 0.01;
+    }
+    function AltitudeDown()
+    {
+      camera.beta += 0.01;
+    }
+    function AzimuthInc()
+    {
+      camera.alpha -= 0.01;
+    }
+    function AzimuthDec()
+    {
+      camera.alpha += 0.01;
+    }
+    function PanLeft()
+    {
+      camera.position.x -= 0.1;
+      camera.target.x -= 0.1;
+    }
+    function PanRight()
+    {
+      camera.position.x += 0.1;
+      camera.target.x += 0.1;
+    }
+    function ZoomIn()
+    {
+      camera.radius -= 1;
+    }
+    function ZoomOut()
+    {
+      camera.radius += 1;
+    }
+  </script>
+  <style>
+    html, body {
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    #renderCanvas {
+      width: 100%;
+      height: 100%;
+      touch-action: none;
+    }
+  </style>
+</head>
+  <body>
+    <canvas id="renderCanvas"></canvas>
+  </body>
+</html>
