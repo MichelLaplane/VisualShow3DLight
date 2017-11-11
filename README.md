@@ -1,4 +1,3 @@
-# VisualShow3DLight
 VisualShow3DLight
 ===================
 Create 3D View of Microsoft Visio Shape contained in a diagram
