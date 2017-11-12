@@ -292,24 +292,6 @@
   <data name="ProjectOpen64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\ProjectOpen64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="RotateX" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\RotateX.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="RotateY" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\RotateY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="RotateZ" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\RotateZ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="TranslateX" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\TranslateX.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="TranslateY" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\TranslateY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="TranslateZ" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\TranslateZ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="ApplyShapeData" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\ApplyShapeData.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -327,5 +309,23 @@
   </data>
   <data name="ProjectSaveAs64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\ProjectSaveAs64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RotateX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\RotateX.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RotateY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\RotateY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RotateZ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\RotateZ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TranslateX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\TranslateX.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TranslateY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\TranslateY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TranslateZ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\TranslateZ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

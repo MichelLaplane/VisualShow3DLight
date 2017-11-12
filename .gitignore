@@ -288,3 +288,5 @@ __pycache__/
 *.xsd.cs
 /Installation
 /Sauvegarde
+/VisualShow3DLight/App remote.config
+/VisualShow3DLight/App.config
