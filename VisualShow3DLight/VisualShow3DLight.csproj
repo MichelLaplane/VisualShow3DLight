@@ -145,6 +145,7 @@
     <Reference Include="System.configuration" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
@@ -256,7 +257,7 @@
     <Content Include="Images\TranslateY.png" />
     <Content Include="Images\TranslateZ.png" />
     <Content Include="Images\Vue3D32.png" />
-    <Content Include="RibbonVisualShow3DLight.xml" />
+    <EmbeddedResource Include="RibbonVisualShow3DLight.xml" />
     <Content Include="Scripts\babylon.js" />
     <Content Include="Scripts\library.js" />
     <Content Include="Scripts\main.js" />

@@ -107,38 +107,38 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="VisualShow3DLight.dll" size="200704">
-      <assemblyIdentity name="VisualShow3DLight" version="0.6.3.0" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="VisualShow3DLight.dll" size="205312">
+      <assemblyIdentity name="VisualShow3DLight" version="0.6.3.1" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>ivRFP5y05KtuFXVvqx9lQCykzDM=</dsig:DigestValue>
+        <dsig:DigestValue>yWmMTI/Jzp5r37U5hQLSw6Thdcg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="en-US\VisualShow3DLight.resources.dll" size="6656">
-      <assemblyIdentity name="VisualShow3DLight.resources" version="0.6.3.0" language="en-US" processorArchitecture="msil" />
+      <assemblyIdentity name="VisualShow3DLight.resources" version="0.6.3.1" language="en-US" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>GE9VuN+D6K74P6mmF5NNkNnihzY=</dsig:DigestValue>
+        <dsig:DigestValue>peq2sfm92rdpmfBj2LBX0TulgAU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="fr-FR\VisualShow3DLight.resources.dll" size="84480">
-      <assemblyIdentity name="VisualShow3DLight.resources" version="0.6.3.0" language="fr-FR" processorArchitecture="msil" />
+      <assemblyIdentity name="VisualShow3DLight.resources" version="0.6.3.1" language="fr-FR" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>9wPXVFEke1CMEaYkBmnlenXcVm4=</dsig:DigestValue>
+        <dsig:DigestValue>1q2jiunVg43GodjaCwlEhfnkK0I=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -275,15 +275,6 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
       <dsig:DigestValue>gj1R7DeIMw1WI6bQyfxFjJY/Ye0=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="RibbonVisualShow3DLight.xml" size="4340" writeableType="applicationData">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>EpSDP0SspXbX+GY9INGVtQIU8A4=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Scripts\babylon.js" size="677028">
@@ -1816,13 +1807,13 @@
       <dsig:DigestValue>4iCqTkKc7FsPQE1ZogH8GXD2bok=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="VisualShow3DLight.dll.config" size="377">
+  <file name="VisualShow3DLight.dll.config" size="273">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>9l6KZ/gwdesuhoz/v0gJdTuYKcU=</dsig:DigestValue>
+      <dsig:DigestValue>0KhFk1R8+rAzdLJmaDdnDU+qk98=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Web\index.html" size="1405">
@@ -1838,7 +1829,7 @@
     <vstav3:entryPointsCollection>
       <vstav3:entryPoints>
         <vstav3:entryPoint class="VisualShow3DLight.ThisAddIn">
-          <assemblyIdentity name="VisualShow3DLight" version="0.6.3.0" language="neutral" processorArchitecture="msil" />
+          <assemblyIdentity name="VisualShow3DLight" version="0.6.3.1" language="neutral" processorArchitecture="msil" />
         </vstav3:entryPoint>
       </vstav3:entryPoints>
     </vstav3:entryPointsCollection>
@@ -1857,4 +1848,4 @@
       </vstov4:customizations>
     </vstav3:application>
   </vstav3:addIn>
-<publisherIdentity name="CN=PORDEV011\Michel" issuerKeyHash="a25a564cc2fd9d4b5ebe88c9d00f35ceb6cafe51" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>wba3q9i6yjWx6i6oL2Wxf6aLc0s=</DigestValue></Reference></SignedInfo><SignatureValue>DOcgzfJFHIdvbQNrMnUt3mM8itauMTndBfvTThhducXNcY1oB7cdwC0WLLuHgzx+MOW6vapRNzmxuFKEcxD9mhRo7R4jMQ6HyhnCOmruXLmxbgE4IWHH9m3vtB/dnEoD3SsBjtLmA8f16ScmvmNrnKr1JpvYcvboac7snbRps5g=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uTkVd6SaGFRA7wDPPpX+fPldI2csvPdufgqZ3Xoy/7kCQ1E5eIRMbR6w8bDcRVWy6t/7TxiywVjputX+g2t44cNxM6M4Hyv1BT5gMl7v0yT6WRcJ9JQ4axA0hOc4oDZ11cIdcY+yiVSoqNRc2kL+iz7WKvxP0Z74m0X6erSL6h8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="4b738ba67fb1652fa82eeab135cabad8abb7b6c1" Description="" Url=""><as:assemblyIdentity name="VisualShow3DLight.dll" version="1.0.0.0" publicKeyToken="f4cf8b171d6325b1" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=PORDEV011\Michel</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>+rUOgpS5QlLEz9FAQnp0WAWl6s0=</DigestValue></Reference></SignedInfo><SignatureValue>Osx6akBReDY47erlDR2v1+IWTMCWxnbnCU4662MymOuUqF4p79dpU7OwFKMFp7meWvaWA+0hQChGucbwhEcHwZVq7K0dkFGVBgXE52ulxlaKF7xSFxEp4akKiI185FOAAg5XJU+c8QZxobDWYqJ46Sms4IIGPtXhWueP52xOuKY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uTkVd6SaGFRA7wDPPpX+fPldI2csvPdufgqZ3Xoy/7kCQ1E5eIRMbR6w8bDcRVWy6t/7TxiywVjputX+g2t44cNxM6M4Hyv1BT5gMl7v0yT6WRcJ9JQ4axA0hOc4oDZ11cIdcY+yiVSoqNRc2kL+iz7WKvxP0Z74m0X6erSL6h8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQcrVv5AARD4FLEUS8bclZajANBgkqhkiG9w0BAQUFADArMSkwJwYDVQQDHiAAUABPAFIARABFAFYAMAAxADEAXABNAGkAYwBoAGUAbDAeFw0xNzExMDIxOTE3MzlaFw0xODExMDMwMTE3MzlaMCsxKTAnBgNVBAMeIABQAE8AUgBEAEUAVgAwADEAMQBcAE0AaQBjAGgAZQBsMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC5ORV3pJoYVEDvAM8+lf58+V0jZyy8925+CpndejL/uQJDUTl4hExtHrDxsNxFVbLq3/tPGLLBWOm61f6Da3jhw3EzozgfK/UFPmAyXu/TJPpZFwn0lDhrEDSE5zigNnXVwh1xj7KJVKio1FzaQv6LPtYq/E/RnvibRfp6tIvqHwIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAADzEhclTR4yIPOVsOvqkzUl27prmZhdLNtT6KzZeTfRMZDiNkc9U7TdL9QZLcsEGlqha1xKZDWwA570gf64bJ3Z84s/YEWD/vrdn+V6IfnElnlsM/fZkXCziOF9Zok8O5NYqEIsHZfROVeoVDeUN2lNTXWXTg254N3M7P2zbPaX</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
+<publisherIdentity name="CN=PORDEV011\Michel" issuerKeyHash="a25a564cc2fd9d4b5ebe88c9d00f35ceb6cafe51" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>pDpWpfUp6InMyKaeGjJJQnSRo2A=</DigestValue></Reference></SignedInfo><SignatureValue>ouBGY/bbUyMDSjjoKFjb0D2q5R9jT7aBjEdVH/u7Jzk0SCjPOKNabtMXfQdyx4hnKzhmlSSAw708SGx4copHa1cXEwxO7lsajz1tnV/wElA1YxLeANQ15vOwltlqh1i2FZMsSRJXMubqd5ZoTj3+A5idubhEk60GzFt4vECpTI8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uTkVd6SaGFRA7wDPPpX+fPldI2csvPdufgqZ3Xoy/7kCQ1E5eIRMbR6w8bDcRVWy6t/7TxiywVjputX+g2t44cNxM6M4Hyv1BT5gMl7v0yT6WRcJ9JQ4axA0hOc4oDZ11cIdcY+yiVSoqNRc2kL+iz7WKvxP0Z74m0X6erSL6h8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="60a391744249321a9ea6c8cc89e829f5a5563aa4" Description="" Url=""><as:assemblyIdentity name="VisualShow3DLight.dll" version="1.0.0.0" publicKeyToken="f4cf8b171d6325b1" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=PORDEV011\Michel</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>Op/ULtMLSEz/5SGQkIz0+N6O5X8=</DigestValue></Reference></SignedInfo><SignatureValue>PIluyMwA10QtZJWSGu9HrqEFPvaH0KuwNE3WDOY8Mp+RINKNqFJXGlvhNz7zicViQLirskItqvXhqpQRj9zztPPA5yOYAl47G9RamBgkOmie/HKa6MaYgydJdmF/RTvWB0xnuXwM853s1/je2maNLX1ESGQlrl/tJ0c/SlS1PF4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uTkVd6SaGFRA7wDPPpX+fPldI2csvPdufgqZ3Xoy/7kCQ1E5eIRMbR6w8bDcRVWy6t/7TxiywVjputX+g2t44cNxM6M4Hyv1BT5gMl7v0yT6WRcJ9JQ4axA0hOc4oDZ11cIdcY+yiVSoqNRc2kL+iz7WKvxP0Z74m0X6erSL6h8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQcrVv5AARD4FLEUS8bclZajANBgkqhkiG9w0BAQUFADArMSkwJwYDVQQDHiAAUABPAFIARABFAFYAMAAxADEAXABNAGkAYwBoAGUAbDAeFw0xNzExMDIxOTE3MzlaFw0xODExMDMwMTE3MzlaMCsxKTAnBgNVBAMeIABQAE8AUgBEAEUAVgAwADEAMQBcAE0AaQBjAGgAZQBsMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC5ORV3pJoYVEDvAM8+lf58+V0jZyy8925+CpndejL/uQJDUTl4hExtHrDxsNxFVbLq3/tPGLLBWOm61f6Da3jhw3EzozgfK/UFPmAyXu/TJPpZFwn0lDhrEDSE5zigNnXVwh1xj7KJVKio1FzaQv6LPtYq/E/RnvibRfp6tIvqHwIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAADzEhclTR4yIPOVsOvqkzUl27prmZhdLNtT6KzZeTfRMZDiNkc9U7TdL9QZLcsEGlqha1xKZDWwA570gf64bJ3Z84s/YEWD/vrdn+V6IfnElnlsM/fZkXCziOF9Zok8O5NYqEIsHZfROVeoVDeUN2lNTXWXTg254N3M7P2zbPaX</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
