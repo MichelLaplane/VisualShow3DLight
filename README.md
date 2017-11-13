@@ -1,4 +1,3 @@
--	
 VisualShow3DLight
 ===================
 Create 3D View of Microsoft Visio Shape contained in a diagram
@@ -41,6 +40,8 @@ WebPath
 
 Usage
 ==================
+If you only want to use the VisualShow3DLight VSTO Addin, an Installshied installation program is available in Install directory.
+Simply execute "Setup VisualShow3DLight.exe" and follow instruction.
 
 After installation, launch Microsoft Visio (2013 or 2016)
 If at the first launch Visio ask you to rely on the content, click yes.
