@@ -10,9 +10,9 @@ What's new
 ===========
 
 Release 0.6.2
-	- Display shapes using their boundingbox
-	- Apply color (if filled in the Visio Shape)
-	- Apply texture if ShapeData "Matériau" is filled with a valid texture file "Stone 01.bmp" (available in Textures directory)
+-	Display shapes using their boundingbox
+-	Apply color (if filled in the Visio Shape)
+-	Apply texture if ShapeData "Matériau" is filled with a valid texture file "Stone 01.bmp" (available in Textures directory)
 
 Features
 ==========
