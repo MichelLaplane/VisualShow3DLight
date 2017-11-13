@@ -1,4 +1,4 @@
-
+-	
 VisualShow3DLight
 ===================
 Create 3D View of Microsoft Visio Shape contained in a diagram
@@ -17,12 +17,12 @@ Release 0.6.2
 Features
 ==========
 
-Get any shape in a Diagram and display it in 3D with a default height
-Get any shape that have being made VisualShow3DLight aware with correct height, elevation and Texture and
+-	Get any shape in a Diagram and display it in 3D with a default height
+-	Get any shape that have being made VisualShow3DLight aware with correct height, elevation and Texture and
 display it in 3D
-Display your content in a Visio Document panel View
-Display your content in a Window
-Dynamic mode provide updating of the content in real time (be aware that this can consume CPU resources)
+-	Display your content in a Visio Document panel View
+-	Display your content in a Window
+-	Dynamic mode provide updating of the content in real time (be aware that this can consume CPU resources)
 
 Configuration
 ==================
